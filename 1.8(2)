@@ -1,2 +1,2 @@
 num = input('')
-print("Вы ввели число", num)
+print("Вы ввели число ", num)
