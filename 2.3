@@ -1,0 +1,16 @@
+#а)
+import math
+a = float(input("значение a: "))
+y = math.sqrt((2 * a + abs(math.sin(3 * a))) / 3.56)
+print(f"Значение функции при a = {a} равно {y}")
+
+#б)
+import math
+x = float(input("Введите значение x: "))
+if x == 0:
+    print("Ошибка")
+else:
+    numerator = 3.2 + math.sqrt(1 + x)
+    denominator = abs(5 * x)
+    y = math.sin(numerator / denominator)
+    print(f"Значение функции при x = {x} равно {y}")
