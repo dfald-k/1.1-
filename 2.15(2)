@@ -1,0 +1,5 @@
+import math
+def Skolc(Rvnesh, Rvnut):
+    if Rvnesh < Rvnut:
+        Rvnesh, Rvnut = Rvnut, Rvnesh
+    return (math.pi * Rvnesh ** 2) - (math.pi * Rvnut ** 2)
