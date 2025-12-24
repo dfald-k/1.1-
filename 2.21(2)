@@ -1,0 +1,7 @@
+import math
+def A(e, f):
+    return (e + f / 2) / 3
+def B(h, g):
+    return abs(h ** 2 - g)
+def C(g, h, e):
+    return ((g - h) ** 2 - 3 * math.sin(e)) ** (1 / 2)
