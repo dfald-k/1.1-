@@ -1,0 +1,4 @@
+def PerDiag(a, b):
+    Perimetr = a * 2 + b * 2
+    Diag = (a ** 2 + b ** 2) ** (1 / 2)
+    return Perimetr, Diag
