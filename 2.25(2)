@@ -1,0 +1,6 @@
+def VSparal(a, b, c):
+    vol = a * b * c
+    Sbok1 = a * b
+    Sbok2 = b * c
+    Sbok3 = a * c
+    return vol, Sbok1, Sbok2, Sbok3
