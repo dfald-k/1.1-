@@ -1,0 +1,8 @@
+class Point:
+    def __init__(self, x=0, y=0):
+        self.x = x
+        self.y = y
+    def calc_dist(self, another_point):
+        if not isinstance(another_point, Point):
+            raise ValueError("Дай мне объект класса Точка")
+        return ((self.x - another_point.x) ** 2 + (self.y - another_point.y) ** 2) ** (1 / 2)
