@@ -1,0 +1,5 @@
+import math
+def lenokr(r):
+    return math.pi * 2 * r
+def Skrug(r):
+    return math.pi * (r ** 2)
