@@ -1,0 +1,3 @@
+def kacat(hight):
+    R = 6350
+    return ((hight + R) ** 2 + R ** 2) ** (1 / 2)
