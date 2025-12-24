@@ -1,0 +1,6 @@
+def MathOps(a, b):
+    summ = a + b
+    razn = a - b
+    proizv = a * b
+    chast = a / b
+    return summ, razn, proizv, chast
