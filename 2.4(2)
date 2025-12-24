@@ -1,0 +1,2 @@
+def perim(a):
+    return 4 * a
