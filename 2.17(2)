@@ -1,0 +1,7 @@
+def Perim(O1, O2, h):
+    if O1 > O2:
+        c = (O1 - O2) / 2
+    elif O2 > O1:
+        c = (O2 - O1) / 2
+    bok = (h ** 2 + c ** 2) ** (1 / 2)
+    return bok * 2 + O1 + O2
