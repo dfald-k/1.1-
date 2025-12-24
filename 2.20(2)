@@ -1,0 +1,7 @@
+import math
+def A(e, f, g):
+    return math.sqrt((abs(e - 3 / f)) ** 3 + g)
+def B(e, h):
+    return math.sin(e) + (math.cos(h)) ** 2
+def C(g, e, f):
+    return 33 * g / (e * f - 3)
