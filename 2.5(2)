@@ -1,0 +1,2 @@
+def diam(rad):
+    return rad * 2
