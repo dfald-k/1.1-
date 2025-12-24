@@ -1,0 +1,4 @@
+def A(a):
+    return math.sqrt((2 * a + math.sin(abs(3 * a))) / 3.56)
+def B(x):
+    return math.sin((3.2 + math.sqrt(1 + x)) / (abs(5 * x)))
