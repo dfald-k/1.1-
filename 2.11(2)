@@ -1,0 +1,2 @@
+def plotnost(v, m):
+    return m / v
