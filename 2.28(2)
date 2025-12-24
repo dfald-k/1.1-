@@ -1,0 +1,8 @@
+import math
+def STrap(O1, O2, angle):
+    if O1 > O2:
+        O1, O2 = O2, O1
+    while angle > 360:
+        angle -= 360
+    angle = angle * math.pi / 180
+    return 0.5 * (O2 ** 2 - O1 ** 2) * math.tan(angle)
