@@ -1,0 +1,4 @@
+def volcub(a):
+    return a ** 3
+def Sbok(a):
+    return a ** 2
