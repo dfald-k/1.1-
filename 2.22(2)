@@ -1,0 +1,4 @@
+def SredArif(a, b):
+    return (abs(a) + abs(b)) / 2
+def SredGeom(a, b):
+    return (abs(a) * abs(b)) ** (1 / 2)
